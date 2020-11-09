@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+html, body {
+	font-family: sans-serif;
+	height: 100%;
+}
+
+body {
+	background: url("https://i2.wp.com/background4free.com/download/blue_water_atmosphere_1751809225.jpg");
+}
+
+.ctext {
+	font-size: 52px;
+	width: 100%;
+	text-align: center;
+	color: rgba(255, 255, 0, 0.8);
+	font-family: "Goldman";
+	margin-bottom: 5%;
+}
+
+#loading {
+	border-radius: 10%;
+	background-image: url("bg.png");
+	background-color: rgba(255, 255, 255, 0.6);
+	background-repeat: none;
+	font-size: 52px;
+	display: block;
+	width: 600px;
+	height: 450px;
+	padding: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 48%;
+	text-align: center;
+}
+
+img {
+	border: none;
+	border-radius: 50%;
+	width: 40%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+p {
+	font-family: sans-serif;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 25px
+}
+
+.blink {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink{
+  to { opacity: .0; }
+}
